@@ -30,16 +30,11 @@ public abstract class Personagem {
 
     public abstract int atacar();
 
-
-
-
-
-
-
-
-
-
-
-
-
+    @Override
+    public String toString() {
+        return
+                "nome='" + nome + '\'' +
+                ", vidaMaxima=" + vidaMaxima +
+                '}';
+    }
 }

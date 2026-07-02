@@ -18,4 +18,11 @@ public class Mago extends Personagem{
         System.out.println("O mago" + getNome()+ "explode cahorro quente no mic");
         return this.poderes;
     }
+
+    @Override
+    public String toString() {
+        return "Mago" +
+                "poderes=" + poderes +
+                '}' ;
+    }
 }

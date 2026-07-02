@@ -16,4 +16,11 @@ public class Guerreiro extends Personagem{
         System.out.printf("O guerreiro" + getNome() + "atacar com seu aviao");
         return this.forcaFisica;
     }
+
+    @Override
+    public String toString() {
+        return "Guerreiro{" +
+                "forcaFisica=" + forcaFisica +
+                super.toString();
+    }
 }
